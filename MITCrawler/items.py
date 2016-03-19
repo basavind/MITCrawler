@@ -7,8 +7,6 @@
 
 import scrapy
 
-
-class CourseItem(scrapy.Item):
-    number = scrapy.Field()
+class Course(scrapy.Item):
     title = scrapy.Field()
-    level = scrapy.Field()
+    url = scrapy.Field()
