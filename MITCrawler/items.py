@@ -8,5 +8,11 @@
 import scrapy
 
 class Course(scrapy.Item):
-    title = scrapy.Field()
-    url = scrapy.Field()
+    material_url = scrapy.Field()
+    material = scrapy.Field()
+    material_section_url = scrapy.Field()
+    material_section = scrapy.Field()
+    course_url = scrapy.Field()
+    course = scrapy.Field()
+    section_url = scrapy.Field()
+    section = scrapy.Field()
