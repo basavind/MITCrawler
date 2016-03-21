@@ -16,3 +16,6 @@ class Course(scrapy.Item):
     course = scrapy.Field()
     section_url = scrapy.Field()
     section = scrapy.Field()
+
+class Material(scrapy.Item):
+    path = scrapy.Field()
